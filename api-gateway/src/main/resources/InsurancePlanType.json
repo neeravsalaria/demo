@@ -1,0 +1,13 @@
+[{
+    "type": "PPO",
+    "desc": "Preferred Provider Organization plans",
+    "benefits": ["You can use providers outside of the plan’s network. However, you’ll make the most of your benefits by staying in-network",
+    "You have in-network coverage nationwide and emergency room and urgent care coverage, in or out of network, worldwide."]
+  },
+  {
+    "type": "HMO",
+    "desc": "Health Management Organization",
+    "benefits": ["You’ll choose a PCP who will get to know you and your health care needs, guide your care, and coordinate your health care decisions",
+    "Referrals aren’t required; however, your PCP can refer you to specialists and help ensure that you get the right care at the right time.",
+    "Emergency room and urgent care, in or out of network, are covered worldwide."]
+}]

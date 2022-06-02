@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Inpatient Hospital - Acute",
+    "type": "Inpatient Services"
+  },
+
+  {
+    "name": "Skilled Nursing Facility",
+    "type": "Inpatient Services"
+  },
+  {
+    "name": "Emergency Care (WWE)",
+    "type": "Emergency Care/Urgent Care"
+  },
+  {
+    "name": "Urgently Needed Care (WWE)",
+    "type": "Emergency Care/Urgent Care"
+  },
+  {
+    "name": "Ambulance Services (WWE *NEW* 2021)",
+    "type": "Emergency Care/Urgent Care"
+  },
+  {
+    "name": "PCP Visit",
+    "type": "Professional Services"
+  },
+  {
+    "name": "Specialist Visit",
+    "type": "Professional Services"
+  },
+  {
+  "name": "Podiatry & Routine foot care",
+    "type": "Professional Services"
+  },
+  {
+    "name": "Other Diagnostic Procedures/Tests",
+    "type": "Diagnostic Testing Services"
+  },
+  {
+    "name": "Lab Services",
+    "type": "Diagnostic Testing Services"
+  },
+  {
+    "name": "X-Ray Services",
+    "type": "Diagnostic Testing Services"
+  },
+  {
+    "name": "MRI/CT at physicians office or free standing",
+    "type": "Diagnostic Testing Services"
+  },
+  {
+    "name": "MRI/CT at other facility",
+    "type": "Diagnostic Testing Services"
+  },
+  {
+    "name": "Outpatient Hospital (Non-Surgical)",
+    "type": "Outpatient Services"
+  },
+  {
+    "name": "Outpatient Hospital (Surgical)",
+    "type": "Outpatient Services"
+  }
+  ]

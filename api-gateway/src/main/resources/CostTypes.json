@@ -1,0 +1,10 @@
+[
+  {
+      "name": "Copay",
+      "desc": "A flat fee that you pay on the spot each time you go to your doctor or fill a prescription"
+  },
+  {
+      "name": "Coinsurance",
+      "desc": "The amount you pay for covered health care after you meet your deductible"
+  }
+]

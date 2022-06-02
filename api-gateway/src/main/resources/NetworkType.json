@@ -1,0 +1,10 @@
+[
+  {
+    "name": "in-network",
+    "desc": "A health care provider that has a contract with your health insurance plan to provide health care services to its plan members at a pre-negotiated rate"
+  },
+  {
+    "name": "out-network",
+    "desc": "A health care provider does not have a contract with your health insurance plan provider"
+  }
+]

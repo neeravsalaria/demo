@@ -1,0 +1,16 @@
+spring.application.name: catalog-service
+server.port: 8080
+eureka.client.service-url.defaultZone: http://localhost:8761/eureka
+spring.cloud.config.import-check.enabled: false
+
+hystrix.dashboard.proxy-stream-allow-list: "*"
+app:
+  greeting: test-hello
+
+
+db:
+ connection: 192.167.168.222:4444
+ table: test
+
+#management.endpoints.web.exposure.include: hystrix.stream
+management.endpoints.web.exposure.include: "*"

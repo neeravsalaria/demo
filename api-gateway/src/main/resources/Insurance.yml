@@ -1,0 +1,56 @@
+Plan :
+  Type: PPO
+  Name: Blue Medicare Advantage Essential
+  Monthly Premium: $0
+  Visitor Travel: Covered
+  Plan Deductible: $500
+  Maximum Out of Pocket (MOOP): $4000
+  Services:
+    Inpatient Services:
+      Inpatient Hospital - Acute:
+        In-Network: $250, Days 1-5;$0, Days 6-90
+        Out-of-Network: 45% per stay
+      Skilled Nursing Facility:
+        In-Network: $0, Days 1-20;$184, Days 21-100
+        Out-of-Network: 45%, Days 1-100
+    Emergency Care/Urgent Care:
+      Emergency Care (WWE):
+        In-Network: $90
+        Out-of-Network: $90
+      Urgently Needed Care (WWE):
+        In-Network: $50
+        Out-of-Network: $50
+      Ambulance Services (WWE *NEW* 2021):
+        In-Network: $300
+        Out-of-Network: $300
+      Professional Services:
+        PCP Visit:
+          In-Network: $5
+          Out-of-Network: 45%
+        Specialist Visit:
+          In-Network:
+          Out-of-Network: 45%
+        Podiatry & Routine Foot Care 6/year:
+          In-Network: $25
+          Out-of-Network: 45%
+      Diagnostic Testing Services:
+        Other Diagnostic Procedures/Tests:
+          In-Network: $0
+          Out-of-Network: 45%
+        Lab Services:
+          In-Network: $0
+          Out-of-Network: 45%
+        X-Ray Services:
+          In-Network: $0
+          Out-of-Network: 45%
+        MRI/CT at physicians office or free standing:
+          In-Network: $150
+          Out-of-Network: 45%
+        MRI/CT at other facility:
+          In-Network: $250
+          Out-of-Network: 45%
+      Outpatient Services:
+        Outpatient Hospital (Non-Surgical):
+          In-Network: 20%
+          Out-of-Network: 45%
+

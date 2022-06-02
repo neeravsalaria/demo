@@ -1,0 +1,680 @@
+[
+  {
+    "name": "Blue Medicare Advantage Essential",
+    "type": "PPO",
+    "desc": "Preferred Provider Organization plans",
+    "monthly premium": "$0",
+    "visitor travel": "Covered",
+    "plan deductible": "$500",
+    "maximum out of pocket": "$4000",
+    "services": [
+      {
+        "name": "Inpatient Hospital - Acute",
+        "type": "Inpatient Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$250, Days 1-5; $0, Days 6-90"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "45% per stay"
+          }
+        ]
+      },
+      {
+        "name": "Skilled Nursing Facility",
+        "type": "Inpatient Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$0, Days 1-20;$184, Days 21-100"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "45%, Days 1-100"
+          }
+        ]
+      },
+      {
+        "name": "Emergency Care (WWE)",
+        "type": "Emergency Care/Urgent Care",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$90"
+          },
+          {
+            "type": "out-network",
+            "costType": "Copay",
+            "cost": "$90"
+          }
+        ]
+      },
+      {
+        "name": "Urgently Needed Care (WWE)",
+        "type": "Emergency Care/Urgent Care",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$50"
+          },
+          {
+            "type": "out-network",
+            "costType": "Copay",
+            "cost": "$50"
+          }
+        ]
+      },
+      {
+        "name": "Ambulance Services (WWE *NEW* 2021)",
+        "type": "Emergency Care/Urgent Care",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$300"
+          },
+          {
+            "type": "out-network",
+            "costType": "Copay",
+            "cost": "$300"
+          }
+        ]
+      },
+      {
+        "name": "PCP Visit",
+        "type": "Professional Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$5"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "45%"
+          }
+        ]
+      },
+      {
+        "name": "Specialist Visit",
+        "type": "Professional Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$25"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "45%"
+          }
+        ]
+      },
+      {
+        "name": "Podiatry & Routine Foot Care 6/year",
+        "type": "Professional Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$20"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "45%"
+          }
+        ]
+      },
+      {
+        "name": "Other Diagnostic Procedures/Tests",
+        "type": "Diagnostic Testing Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$0"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "45%"
+          }
+        ]
+      },
+      {
+        "name": "Lab Services",
+        "type": "Diagnostic Testing Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$0"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "45%"
+          }
+        ]
+      },
+      {
+        "name": "X-Ray Services",
+        "type": "Diagnostic Testing Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$0"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "45%"
+          }
+        ]
+      },
+      {
+        "name": "MRI/CT at physicians office or free standing",
+        "type": "Diagnostic Testing Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$150"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "45%"
+          }
+        ]
+      },
+      {
+        "name": "MRI/CT at other facility",
+        "type": "Diagnostic Testing Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$250"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "45%"
+          }
+        ]
+      },
+      {
+        "name": "Outpatient Hospital (Non-Surgical)",
+        "type": "Outpatient Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Coinsurance",
+            "cost": "20%"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "45%"
+          }
+        ]
+      },
+      {
+        "name": "Outpatient Hospital (Surgical)",
+        "type": "Outpatient Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$250"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "45%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Blue Medicare Advantage Access",
+    "type": "PPO",
+    "desc": "Preferred Provider Organization plans",
+    "monthly premium": "$0",
+    "visitor travel": "Covered",
+    "plan deductible": "$0",
+    "maximum out of pocket": "$5900",
+    "services": [
+      {
+        "name": "Inpatient Hospital - Acute",
+        "type": "Inpatient Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$285, Days 1-5;$0, Days 6-90"
+          },
+          {
+            "type": "out-network",
+            "costType": "Copay",
+            "cost": "$500, Days 1-5; $0, Days 6-90"
+          }
+        ]
+      },
+      {
+        "name": "Skilled Nursing Facility",
+        "type": "Inpatient Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$0, Days 1-20;$184, Days 21-100"
+          },
+          {
+            "type": "out-network",
+            "costType": "Copay",
+            "cost": "$0, Days 1-20; $184, Days 21-100"
+          }
+        ]
+      },
+      {
+        "name": "Emergency Care (WWE)",
+        "type": "Emergency Care/Urgent Care",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$90"
+          },
+          {
+            "type": "out-network",
+            "costType": "Copay",
+            "cost": "$90"
+          }
+        ]
+      },
+      {
+        "name": "Urgently Needed Care (WWE)",
+        "type": "Emergency Care/Urgent Care",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$50"
+          },
+          {
+            "type": "out-network",
+            "costType": "Copay",
+            "cost": "$50"
+          }
+        ]
+      },
+      {
+        "name": "Ambulance Services (WWE *NEW* 2021)",
+        "type": "Emergency Care/Urgent Care",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$285"
+          },
+          {
+            "type": "out-network",
+            "costType": "Copay",
+            "cost": "$285"
+          }
+        ]
+      },
+      {
+        "name": "PCP Visit",
+        "type": "Professional Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$5"
+          },
+          {
+            "type": "out-network",
+            "costType": "Copay",
+            "cost": "$10"
+          }
+        ]
+      },
+      {
+        "name": "Specialist Visit",
+        "type": "Professional Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$35"
+          },
+          {
+            "type": "out-network",
+            "costType": "Copay",
+            "cost": "$70"
+          }
+        ]
+      },
+      {
+        "name": "Podiatry & Routine Foot Care 6/year",
+        "type": "Professional Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$20"
+          },
+          {
+            "type": "out-network",
+            "costType": "Copay",
+            "cost": "$40"
+          }
+        ]
+      },
+      {
+        "name": "Other Diagnostic Procedures/Tests",
+        "type": "Diagnostic Testing Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$0"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "50%"
+          }
+        ]
+      },
+      {
+        "name": "Lab Services",
+        "type": "Diagnostic Testing Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$0"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "50%"
+          }
+        ]
+      },
+      {
+        "name": "X-Ray Services",
+        "type": "Diagnostic Testing Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$0"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "50%"
+          }
+        ]
+      },
+      {
+        "name": "MRI/CT at physicians office or free standing",
+        "type": "Diagnostic Testing Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$185"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "50%"
+          }
+        ]
+      },
+      {
+        "name": "MRI/CT at other facility",
+        "type": "Diagnostic Testing Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$285"
+          },
+          {
+            "type": "out-network",
+            "costType": "Coinsurance",
+            "cost": "50%"
+          }
+        ]
+      },
+      {
+        "name": "Outpatient Hospital (Non-Surgical)",
+        "type": "Outpatient Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Coinsurance",
+            "cost": "20%"
+          },
+          {
+            "type": "out-network",
+            "costType": "Copay",
+            "cost": "$500"
+          }
+        ]
+      },
+      {
+        "name": "Outpatient Hospital (Surgical)",
+        "type": "Outpatient Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$285"
+          },
+          {
+            "type": "out-network",
+            "costType": "Copay",
+            "cost": "$500"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Blue Medicare Advantage Complete",
+    "type": "HMO",
+    "desc": "Preferred Provider Organization plans",
+    "monthly premium": "$0",
+    "visitor travel": "Not Covered",
+    "plan deductible": "$0",
+    "maximum out of pocket": "$6200",
+    "services": [
+      {
+        "name": "Inpatient Hospital - Acute",
+        "type": "Inpatient Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$325, Days 1-5; $0, Days 7-90"
+          }
+        ]
+      },
+      {
+        "name": "Skilled Nursing Facility",
+        "type": "Inpatient Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$0, Days 1-20; $184, Days 21-100"
+          }
+        ]
+      },
+      {
+        "name": "Emergency Care (WWE)",
+        "type": "Emergency Care/Urgent Care",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$90"
+          }
+        ]
+      },
+      {
+        "name": "Urgently Needed Care (WWE)",
+        "type": "Emergency Care/Urgent Care",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$50"
+          }
+        ]
+      },
+      {
+        "name": "Ambulance Services (WWE *NEW* 2021)",
+        "type": "Emergency Care/Urgent Care",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$325"
+          }
+        ]
+      },
+      {
+        "name": "PCP Visit",
+        "type": "Professional Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$5"
+          }
+        ]
+      },
+      {
+        "name": "Specialist Visit",
+        "type": "Professional Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$45"
+          }
+        ]
+      },
+      {
+        "name": "Podiatry & Routine Foot Care 6/year",
+        "type": "Professional Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$45"
+          }
+        ]
+      },
+      {
+        "name": "Other Diagnostic Procedures/Tests",
+        "type": "Diagnostic Testing Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$0"
+          }
+        ]
+      },
+      {
+        "name": "Lab Services",
+        "type": "Diagnostic Testing Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$0"
+          }
+        ]
+      },
+      {
+        "name": "X-Ray Services",
+        "type": "Diagnostic Testing Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$0"
+          }
+        ]
+      },
+      {
+        "name": "MRI/CT at physicians office or free standing",
+        "type": "Diagnostic Testing Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$225"
+          }
+        ]
+      },
+      {
+        "name": "MRI/CT at other facility",
+        "type": "Diagnostic Testing Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$325"
+          }
+        ]
+      },
+      {
+        "name": "Outpatient Hospital (Non-Surgical)",
+        "type": "Outpatient Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Coinsurance",
+            "cost": "20%"
+          }
+        ]
+      },
+      {
+        "name": "Outpatient Hospital (Surgical)",
+        "type": "Outpatient Services",
+        "network": [
+          {
+            "type": "in-network",
+            "costType": "Copay",
+            "cost": "$325"
+          }
+        ]
+      }
+    ]
+  }
+]
