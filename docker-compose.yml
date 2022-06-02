@@ -1,0 +1,24 @@
+services:
+  eureka-server:
+    build: ./service-discovery
+    image: neerav/spring-cloud-eureka-server
+    ports:
+      - "8761:8761"
+  catalog-service:
+    build: ./catalog-service
+    image: neerav/spring-cloud-catalog-service
+    ports:
+      - "8181:8181"
+    depends_on:
+      - eureka-server
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:8761/eureka    
+  api-cloud-gateway:
+    build: ./api-gateway
+    ports:
+      - "9090:9090"
+    depends_on: 
+      - eureka-server
+      - catalog-service
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:8761/eureka
